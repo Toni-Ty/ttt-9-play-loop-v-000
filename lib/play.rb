@@ -36,9 +36,9 @@ def turn(board)
 end
 
 def play(board)
-  index = 0
-  while index < 9
-    index += 1
+  input_to_index = 0
+  while input_to_index < 9
+    input_to_index += 1
   turn(board)
   end
 end
